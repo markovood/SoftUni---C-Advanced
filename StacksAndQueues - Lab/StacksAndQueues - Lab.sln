@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStrings", "ReverseStrings\ReverseStrings.csproj", "{E0343029-6DA7-409E-9179-7AD340AE7C2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStrings", "ReverseStrings\ReverseStrings.csproj", "{E0343029-6DA7-409E-9179-7AD340AE7C2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{B9DC3892-6A0B-4DFE-B8C3-37AAFE574CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{B9DC3892-6A0B-4DFE-B8C3-37AAFE574CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinaryConverter", "DecimalToBinaryConverter\DecimalToBinaryConverter.csproj", "{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B9DC3892-6A0B-4DFE-B8C3-37AAFE574CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9DC3892-6A0B-4DFE-B8C3-37AAFE574CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9DC3892-6A0B-4DFE-B8C3-37AAFE574CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
