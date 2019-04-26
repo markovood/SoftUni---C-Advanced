@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinaryConverter", "DecimalToBinaryConverter\DecimalToBinaryConverter.csproj", "{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{BDA259A6-FBEA-4AEA-B046-B4F402251B3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152DF7BE-01D9-4A04-9F8E-57DFB4F5634A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA259A6-FBEA-4AEA-B046-B4F402251B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA259A6-FBEA-4AEA-B046-B4F402251B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA259A6-FBEA-4AEA-B046-B4F402251B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA259A6-FBEA-4AEA-B046-B4F402251B3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
