@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchingBrackets", "Matchin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotPotato", "HotPotato\HotPotato.csproj", "{41F47C41-E407-4BD4-AF6B-BF5C56F057DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficJam", "TrafficJam\TrafficJam.csproj", "{207FBBBB-95A0-43FD-8E7F-E53017C8F136}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{41F47C41-E407-4BD4-AF6B-BF5C56F057DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F47C41-E407-4BD4-AF6B-BF5C56F057DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F47C41-E407-4BD4-AF6B-BF5C56F057DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207FBBBB-95A0-43FD-8E7F-E53017C8F136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207FBBBB-95A0-43FD-8E7F-E53017C8F136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207FBBBB-95A0-43FD-8E7F-E53017C8F136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207FBBBB-95A0-43FD-8E7F-E53017C8F136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
