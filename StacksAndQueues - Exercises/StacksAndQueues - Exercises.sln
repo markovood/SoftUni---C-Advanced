@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumbersWithAStack", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStackOperations", "BasicStackOperations\BasicStackOperations.csproj", "{888C575E-1D1B-4906-95D3-83F4BE8B8DE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumElement", "MaximumElement\MaximumElement.csproj", "{26F89745-3F9B-4806-BBF4-126ED883E3F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{888C575E-1D1B-4906-95D3-83F4BE8B8DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888C575E-1D1B-4906-95D3-83F4BE8B8DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888C575E-1D1B-4906-95D3-83F4BE8B8DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F89745-3F9B-4806-BBF4-126ED883E3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F89745-3F9B-4806-BBF4-126ED883E3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F89745-3F9B-4806-BBF4-126ED883E3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F89745-3F9B-4806-BBF4-126ED883E3F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
