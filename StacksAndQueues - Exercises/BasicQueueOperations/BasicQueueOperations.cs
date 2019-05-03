@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BasicStackOperations
+namespace BasicQueueOperations
 {
-    public class BasicStackOperations
+    public class BasicQueueOperations
     {
         public static void Main()
         {
             int[] firstInputLine = Console.ReadLine().
-                Split(' ',StringSplitOptions.RemoveEmptyEntries).
+                Split(' ', StringSplitOptions.RemoveEmptyEntries).
                 Select(int.Parse).
                 ToArray();
             
-            int elementsToPop = firstInputLine[1];
+            int elementsToDequeue = firstInputLine[1];
             int elementToFind = firstInputLine[2];
 
             int[] secondInputLine = Console.ReadLine().
@@ -21,23 +21,23 @@ namespace BasicStackOperations
                 Select(int.Parse).
                 ToArray();
 
-            Stack<int> stack = new Stack<int>(secondInputLine);
-            for (int i = 0; i < elementsToPop; i++)
+            Queue<int> queue = new Queue<int>(secondInputLine);
+            for (int i = 0; i < elementsToDequeue; i++)
             {
-                stack.Pop();
+                queue.Dequeue();
             }
 
-            if (stack.Count == 0)
+            if (queue.Count == 0)
             {
                 Console.WriteLine(0);
             }
-            else if (stack.Contains(elementToFind))
+            else if (queue.Contains(elementToFind))
             {
                 Console.WriteLine("true");
             }
             else
             {
-                Console.WriteLine(stack.Min());
+                Console.WriteLine(queue.Min());
             }
         }
     }
