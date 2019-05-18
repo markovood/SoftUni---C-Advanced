@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceWithQueue", "Sequen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckTour", "TruckTour\TruckTour.csproj", "{A847E026-493C-4A6E-85A6-734DE6B4765F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedParenthesis", "BalancedParenthesis\BalancedParenthesis.csproj", "{B9F4E823-7A04-430B-92C5-1F2785439EBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A847E026-493C-4A6E-85A6-734DE6B4765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A847E026-493C-4A6E-85A6-734DE6B4765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A847E026-493C-4A6E-85A6-734DE6B4765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F4E823-7A04-430B-92C5-1F2785439EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F4E823-7A04-430B-92C5-1F2785439EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F4E823-7A04-430B-92C5-1F2785439EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F4E823-7A04-430B-92C5-1F2785439EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
