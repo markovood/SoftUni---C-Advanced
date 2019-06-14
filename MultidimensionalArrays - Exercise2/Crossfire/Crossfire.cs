@@ -16,78 +16,74 @@ namespace Crossfire
             while (command != "Nuke it from orbit")
             {
                 int[] commandTokens = command
-                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries)
                     .Select(int.Parse)
                     .ToArray();
                 int row = commandTokens[0]; // [-2^31 + 1, 2^31 - 1]
                 int col = commandTokens[1]; // [-2^31 + 1, 2^31 - 1]
                 int radius = commandTokens[2];  // [0, 2^31 - 1]
 
-                // Validate row, col
-                bool isValid = Validate(matrix, row, col);
-                if (isValid)
+                // Mark the destroyed cells with 0 as values in the matrix start from 1
+                // mark center
+                if (Validate(matrix, row, col))
                 {
-                    // Mark the destroyed cells with 0 as values in the matrix start from 1
-                    // mark center
                     matrix[row, col] = 0;
-
-                    // mark to the left
-                    int currentCol = col - 1;
-                    for (int i = 0; i < radius; i++)
-                    {
-                        if (currentCol < 0)
-                        {
-                            break;
-                        }
-
-                        matrix[row, currentCol] = 0;
-                        currentCol--;
-                    }
-
-                    // mark to the right
-                    currentCol = col + 1;
-                    for (int i = 0; i < radius; i++)
-                    {
-                        if (currentCol >= matrix.GetLength(1))
-                        {
-                            break;
-                        }
-
-                        matrix[row, currentCol] = 0;
-                        currentCol++;
-                    }
-
-                    // mark up
-                    int currentRow = row - 1;
-                    for (int i = 0; i < radius; i++)
-                    {
-                        if (currentRow < 0)
-                        {
-                            break;
-                        }
-
-                        matrix[currentRow, col] = 0;
-                        currentRow--;
-                    }
-
-                    // mark down
-                    currentRow = row + 1;
-                    for (int i = 0; i < radius; i++)
-                    {
-                        if (currentRow >= matrix.GetLength(0))
-                        {
-                            break;
-                        }
-
-                        matrix[currentRow, col] = 0;
-                        currentRow++;
-                    }
-
-                    // Remove marked cells
-                    matrix = RemoveEmptyCells(matrix);
                 }
-                Console.WriteLine();
-                Print(matrix);
+
+                // mark to the left
+                int currentCol = col - 1;
+                for (int i = 0; i < radius; i++)
+                {
+                    if (Validate(matrix, row, currentCol))
+                    {
+                        matrix[row, currentCol] = 0;
+                    }
+
+                    currentCol--;
+                }
+
+                // mark to the right
+                currentCol = col + 1;
+                for (int i = 0; i < radius; i++)
+                {
+                    if (Validate(matrix, row, currentCol))
+                    {
+                        matrix[row, currentCol] = 0;
+                    }
+
+                    currentCol++;
+                }
+
+                // mark up
+                int currentRow = row - 1;
+                for (int i = 0; i < radius; i++)
+                {
+                    if (Validate(matrix, currentRow, col))
+                    {
+                        matrix[currentRow, col] = 0;
+                    }
+
+                    currentRow--;
+                }
+
+                // mark down
+                currentRow = row + 1;
+                for (int i = 0; i < radius; i++)
+                {
+                    if (Validate(matrix, currentRow, col))
+                    {
+                        matrix[currentRow, col] = 0;
+                    }
+
+                    currentRow++;
+                }
+
+                // Remove marked cells
+                matrix = RemoveEmptyCells(matrix);
+
+                // Run Garbage Collector to reduce used memory for taking test 10
+                GC.Collect();
+
                 command = Console.ReadLine();
             }
 
@@ -192,7 +188,7 @@ namespace Crossfire
         private static int[,] SetUpMatrix()
         {
             int[] dimensions = Console.ReadLine()
-                            .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                            .Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries)
                             .Select(int.Parse)
                             .ToArray();
             int rows = dimensions[0];
