@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{423A5F6E-D1EA-4015-9703-3CF175CC61E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{423A5F6E-D1EA-4015-9703-3CF175CC61E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactiveBunnies", "RadioactiveBunnies\RadioactiveBunnies.csproj", "{3BB94242-36D7-4894-8E6D-12712BCCD644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioactiveBunnies", "RadioactiveBunnies\RadioactiveBunnies.csproj", "{3BB94242-36D7-4894-8E6D-12712BCCD644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossfire", "Crossfire\Crossfire.csproj", "{729CC12C-995F-4D53-9F38-95EB23FFA22C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crossfire", "Crossfire\Crossfire.csproj", "{729CC12C-995F-4D53-9F38-95EB23FFA22C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheHeiganDance", "TheHeiganDance\TheHeiganDance.csproj", "{F0657E0E-C879-4453-A00E-B6D06E238FD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheHeiganDance", "TheHeiganDance\TheHeiganDance.csproj", "{F0657E0E-C879-4453-A00E-B6D06E238FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSystem", "ParkingSystem\ParkingSystem.csproj", "{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F0657E0E-C879-4453-A00E-B6D06E238FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0657E0E-C879-4453-A00E-B6D06E238FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0657E0E-C879-4453-A00E-B6D06E238FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
