@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crossfire", "Crossfire\Cros
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheHeiganDance", "TheHeiganDance\TheHeiganDance.csproj", "{F0657E0E-C879-4453-A00E-B6D06E238FD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSystem", "ParkingSystem\ParkingSystem.csproj", "{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingSystem", "ParkingSystem\ParkingSystem.csproj", "{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMatrixRotation", "StringMatrixRotation\StringMatrixRotation.csproj", "{CE02E68D-7936-4926-8BAB-F9C4C0553745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9DBEFE8-9AB1-4EF8-A466-A0DCF0B708D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE02E68D-7936-4926-8BAB-F9C4C0553745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE02E68D-7936-4926-8BAB-F9C4C0553745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE02E68D-7936-4926-8BAB-F9C4C0553745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE02E68D-7936-4926-8BAB-F9C4C0553745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
