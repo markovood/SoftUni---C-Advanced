@@ -8,8 +8,8 @@ namespace CopyBinaryFile
         public static void Main()
         {
             char dirSeparator = Path.DirectorySeparatorChar;
-            string fileNameToCopy = "picture.jpg";
-            string copiedFileName = "picture - copy.jpg";
+            string fileNameToCopy = "copyMe.png";
+            string copiedFileName = "copyMe.png - copy.png";
             string pathIn = $"..{dirSeparator}..{dirSeparator}..{dirSeparator}{fileNameToCopy}";
             string pathOut = $"..{dirSeparator}..{dirSeparator}..{dirSeparator}{copiedFileName}";
 
