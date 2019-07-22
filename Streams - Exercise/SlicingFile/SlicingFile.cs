@@ -67,15 +67,16 @@ namespace SlicingFile
         private static void Assemble(List<string> files, string destinationDirectory)
         {
             Directory.CreateDirectory(destinationDirectory);
+
             string assembledFileExtension = Path.GetExtension(files[0]);
             string assembledFileName = "assembled";
             string assembledFilePath = Path.Combine(destinationDirectory, assembledFileName + assembledFileExtension);
 
-            using (var writer = new FileStream(assembledFilePath, FileMode.Append, FileAccess.Write, FileShare.None))
+            for (int i = 0; i < files.Count; i++)
             {
-                for (int i = 0; i < files.Count; i++)
+                using (var reader = new FileStream(files[i], FileMode.Open, FileAccess.Read, FileShare.Read))
                 {
-                    using (var reader = new FileStream(files[i], FileMode.Open, FileAccess.Read, FileShare.Read))
+                    using (var writer = new FileStream(assembledFilePath, FileMode.Append, FileAccess.Write, FileShare.None))
                     {
                         byte[] buffer = new byte[reader.Length];
                         int readBytes = reader.Read(buffer, 0, buffer.Length);
@@ -89,16 +90,17 @@ namespace SlicingFile
         private static void Slice(string sourceFile, string destinationDirectory, int parts)
         {
             Directory.CreateDirectory(destinationDirectory);
+
             using (var reader = new FileStream(sourceFile, FileMode.Open, FileAccess.Read, FileShare.Read))
             {
                 string fileExtension = Path.GetExtension(sourceFile);
 
                 long sourceFileBytes = reader.Length;
-                long newFilesSize = sourceFileBytes / parts;
+                long newFilesSize = (long)Math.Ceiling(sourceFileBytes / (double)parts);
 
                 for (int i = 0; i < parts; i++)
                 {
-                    string currentSlice = $"slice{i + 1}.{fileExtension}";
+                    string currentSlice = $"slice{i + 1}{fileExtension}";
                     string outputPath = Path.Combine(destinationDirectory, currentSlice);
 
                     byte[] buffer = new byte[newFilesSize];
