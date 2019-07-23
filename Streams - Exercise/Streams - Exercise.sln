@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZippingSlicedFiles", "Zippi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryTraversal", "DirectoryTraversal\DirectoryTraversal.csproj", "{D2C07E01-0718-4011-BF7A-7A995D67667A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullDirectoryTraversal", "FullDirectoryTraversal\FullDirectoryTraversal.csproj", "{8947B806-54EC-419F-803A-D6CB809DFE9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D2C07E01-0718-4011-BF7A-7A995D67667A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2C07E01-0718-4011-BF7A-7A995D67667A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2C07E01-0718-4011-BF7A-7A995D67667A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8947B806-54EC-419F-803A-D6CB809DFE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8947B806-54EC-419F-803A-D6CB809DFE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8947B806-54EC-419F-803A-D6CB809DFE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8947B806-54EC-419F-803A-D6CB809DFE9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
