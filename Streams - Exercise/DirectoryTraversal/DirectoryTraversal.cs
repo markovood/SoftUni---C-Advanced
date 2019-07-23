@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace DirectoryTraversal
 {
@@ -47,16 +48,23 @@ namespace DirectoryTraversal
                             .ThenBy(x => x.Key)
                             .ToDictionary(x => x.Key, y => y.Value);
 
-            // Files under an extension should be ordered by their size
-            foreach (var extension in ordered.Keys)
+            // Files under an extension should be ordered by their size. Save result in 'report.txt' on the
+            // Desktop. Ensure the desktop path is always valid, regardless of the user
+            string desktopDirectory = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+            string outputFile = "report.txt";
+            string outputPath = Path.Combine(desktopDirectory, outputFile);
+            using (var writer = new StreamWriter(outputPath, false, Encoding.UTF8))
             {
-                Console.WriteLine(extension);
-
-                var orderedPathsAndSizes = ordered[extension].OrderBy(x => x.Value);
-                foreach (var path in orderedPathsAndSizes)
+                foreach (var extension in ordered.Keys)
                 {
-                    string fileName = Path.GetFileName(path.Key);
-                    Console.WriteLine($"--{fileName} - {path.Value}kb");
+                    writer.WriteLine(extension);
+
+                    var orderedPathsAndSizes = ordered[extension].OrderBy(x => x.Value);
+                    foreach (var path in orderedPathsAndSizes)
+                    {
+                        string fileName = Path.GetFileName(path.Key);
+                        writer.WriteLine($"--{fileName} - {path.Value}kb");
+                    }
                 }
             }
         }
