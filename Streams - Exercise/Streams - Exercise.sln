@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlicingFile", "SlicingFile\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZippingSlicedFiles", "ZippingSlicedFiles\ZippingSlicedFiles.csproj", "{4BEC3593-3CEA-4336-BB75-90CACAF8B080}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryTraversal", "DirectoryTraversal\DirectoryTraversal.csproj", "{D2C07E01-0718-4011-BF7A-7A995D67667A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4BEC3593-3CEA-4336-BB75-90CACAF8B080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BEC3593-3CEA-4336-BB75-90CACAF8B080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BEC3593-3CEA-4336-BB75-90CACAF8B080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C07E01-0718-4011-BF7A-7A995D67667A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C07E01-0718-4011-BF7A-7A995D67667A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C07E01-0718-4011-BF7A-7A995D67667A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C07E01-0718-4011-BF7A-7A995D67667A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
