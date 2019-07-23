@@ -16,7 +16,7 @@ namespace FullDirectoryTraversal
             Console.WriteLine("Please, enter a directory to scan:");
             string directory = Path.GetFullPath(Console.ReadLine());
 
-            string[] allFiles = Directory.GetFiles(directory,"*",SearchOption.AllDirectories);
+            string[] allFiles = Directory.GetFiles(directory, "*", SearchOption.AllDirectories);
 
             Dictionary<string, Dictionary<string, double>> extensionsPathsAndSizes = new Dictionary<string, Dictionary<string, double>>();
 
