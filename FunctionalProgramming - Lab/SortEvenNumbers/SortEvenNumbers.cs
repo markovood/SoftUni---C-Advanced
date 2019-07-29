@@ -8,7 +8,7 @@ namespace SortEvenNumbers
         public static void Main()
         {
             var result = Console.ReadLine()
-                .Split(",", StringSplitOptions.RemoveEmptyEntries)
+                .Split(", ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .Where(x => x % 2 == 0)
                 .OrderBy(x => x);
