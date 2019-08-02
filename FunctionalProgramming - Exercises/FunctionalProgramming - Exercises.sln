@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindEvensOrOdds", "FindEven
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppliedArithmetics", "AppliedArithmetics\AppliedArithmetics.csproj", "{719B3064-8E97-47C6-AB40-E8EEE5D4F5EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseAndExclude", "ReverseAndExclude\ReverseAndExclude.csproj", "{B59DB9DB-E067-4149-A311-486185C029EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseAndExclude", "ReverseAndExclude\ReverseAndExclude.csproj", "{B59DB9DB-E067-4149-A311-486185C029EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateForNames", "PredicateForNames\PredicateForNames.csproj", "{39FDB91C-D22B-45F7-A1F1-0A9871420AB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredicateForNames", "PredicateForNames\PredicateForNames.csproj", "{39FDB91C-D22B-45F7-A1F1-0A9871420AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomComparator", "CustomComparator\CustomComparator.csproj", "{A000DB30-4961-430E-967E-02CBEDCCA5C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{39FDB91C-D22B-45F7-A1F1-0A9871420AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39FDB91C-D22B-45F7-A1F1-0A9871420AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39FDB91C-D22B-45F7-A1F1-0A9871420AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A000DB30-4961-430E-967E-02CBEDCCA5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A000DB30-4961-430E-967E-02CBEDCCA5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A000DB30-4961-430E-967E-02CBEDCCA5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A000DB30-4961-430E-967E-02CBEDCCA5C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
