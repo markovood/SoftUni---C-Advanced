@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListOfPredicates", "ListOfP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predicate Party", "Predicate Party\Predicate Party.csproj", "{FCBADB11-C4EE-46EA-AC3E-8CA0FAA2B324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePartyReservationFilterModule", "ThePartyReservationFilterModule\ThePartyReservationFilterModule.csproj", "{29CE23D3-39C3-4117-BF12-2DA285760732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThePartyReservationFilterModule", "ThePartyReservationFilterModule\ThePartyReservationFilterModule.csproj", "{29CE23D3-39C3-4117-BF12-2DA285760732}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfernoIII", "InfernoIII\InfernoIII.csproj", "{534492BE-0633-455A-B2FD-9B1115B17EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfernoIII_Variant", "InfernoIII_Variant\InfernoIII_Variant.csproj", "{E118E10B-3BF9-48E9-BCAE-3F565EC1AEEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriFunction", "TriFunction\TriFunction.csproj", "{BE9F9E8A-F3C8-4146-915E-98C577C3FBCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{29CE23D3-39C3-4117-BF12-2DA285760732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29CE23D3-39C3-4117-BF12-2DA285760732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29CE23D3-39C3-4117-BF12-2DA285760732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534492BE-0633-455A-B2FD-9B1115B17EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534492BE-0633-455A-B2FD-9B1115B17EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534492BE-0633-455A-B2FD-9B1115B17EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534492BE-0633-455A-B2FD-9B1115B17EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E118E10B-3BF9-48E9-BCAE-3F565EC1AEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E118E10B-3BF9-48E9-BCAE-3F565EC1AEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E118E10B-3BF9-48E9-BCAE-3F565EC1AEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E118E10B-3BF9-48E9-BCAE-3F565EC1AEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9F9E8A-F3C8-4146-915E-98C577C3FBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9F9E8A-F3C8-4146-915E-98C577C3FBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9F9E8A-F3C8-4146-915E-98C577C3FBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9F9E8A-F3C8-4146-915E-98C577C3FBCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
