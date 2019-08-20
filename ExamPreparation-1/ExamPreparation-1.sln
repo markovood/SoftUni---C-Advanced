@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyRevolver", "KeyRevolver\KeyRevolver.csproj", "{F8E72A79-FBE2-4981-96AD-F8ACA0CAF855}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sneaking", "Sneaking\Sneaking.csproj", "{4B142BB3-B794-4AEB-92B9-6C7D5462F328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sneaking", "Sneaking\Sneaking.csproj", "{4B142BB3-B794-4AEB-92B9-6C7D5462F328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoBlockchain", "CryptoBlockchain\CryptoBlockchain.csproj", "{E247BDBC-5432-4816-BAE6-9839E9240188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4B142BB3-B794-4AEB-92B9-6C7D5462F328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B142BB3-B794-4AEB-92B9-6C7D5462F328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B142BB3-B794-4AEB-92B9-6C7D5462F328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E247BDBC-5432-4816-BAE6-9839E9240188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E247BDBC-5432-4816-BAE6-9839E9240188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E247BDBC-5432-4816-BAE6-9839E9240188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E247BDBC-5432-4816-BAE6-9839E9240188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
