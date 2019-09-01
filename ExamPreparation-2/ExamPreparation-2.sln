@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crossroads", "Crossroads\Cr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnightGame", "KnightGame\KnightGame.csproj", "{0627323B-4223-4CE9-ADBB-D3F91110B2F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketTrouble", "TicketTrouble\TicketTrouble.csproj", "{9B83F983-3341-486D-A684-1B9320DD927B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketTrouble", "TicketTrouble\TicketTrouble.csproj", "{9B83F983-3341-486D-A684-1B9320DD927B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTime", "MovieTime\MovieTime.csproj", "{EA52DD91-9498-465A-9D9E-6042363F3E46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9B83F983-3341-486D-A684-1B9320DD927B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B83F983-3341-486D-A684-1B9320DD927B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B83F983-3341-486D-A684-1B9320DD927B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA52DD91-9498-465A-9D9E-6042363F3E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA52DD91-9498-465A-9D9E-6042363F3E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA52DD91-9498-465A-9D9E-6042363F3E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA52DD91-9498-465A-9D9E-6042363F3E46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
